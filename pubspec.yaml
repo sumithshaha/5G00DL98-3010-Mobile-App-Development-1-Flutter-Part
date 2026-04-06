@@ -1,0 +1,25 @@
+name: login_screen
+description: A simple Flutter login screen - Homework 1
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Register the logo image asset
+  assets:
+    - assets/images/logo.png

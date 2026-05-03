@@ -1,0 +1,29 @@
+name: team_profile_app
+description: "Homework 2 — Material UI Team Profile App for the Mobile Applications course (TAMK × THWS)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Logging (carried over from the previous exercise on page 45 of Unit 4)
+  logger: ^2.4.0
+  # Smooth dot indicator under the PageView. Tiny, no native deps.
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # Declare the team-member photos. Drop your own images (JPG/PNG)
+  # into assets/images/ and adjust the team_data.dart paths if needed.
+  assets:
+    - assets/images/

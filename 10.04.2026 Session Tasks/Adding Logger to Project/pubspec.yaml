@@ -1,0 +1,23 @@
+name: logger_demo
+description: Minimal Flutter demo showing the logger package with Debug, Info, Warning and Error messages, plus DartDevTools integration.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Logging package from pub.dev — https://pub.dev/packages/logger
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

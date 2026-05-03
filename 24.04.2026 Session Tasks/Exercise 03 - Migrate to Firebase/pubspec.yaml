@@ -1,0 +1,27 @@
+name: firebase_demo
+description: "Unit 7 Exercise 3 — database_demo migrated from SQLite to Cloud Firestore."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase. firebase_core is mandatory; cloud_firestore is the actual
+  # database client. Run `flutterfire configure` once per project to
+  # generate firebase_options.dart with your project's API keys.
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

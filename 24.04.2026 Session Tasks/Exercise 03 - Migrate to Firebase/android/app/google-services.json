@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "369893035377",
+    "project_id": "tamk-firebase-demo",
+    "storage_bucket": "tamk-firebase-demo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369893035377:android:a3646563801996e286bad0",
+        "android_client_info": {
+          "package_name": "com.example.database_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr_p0HKCdZvDTm0pPrnRUr2SjSnKqo2fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

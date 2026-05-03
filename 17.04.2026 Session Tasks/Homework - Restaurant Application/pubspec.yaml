@@ -1,0 +1,26 @@
+name: restaurant_app
+description: "Unit 6 Homework — Restaurant App. Multi-screen Flutter app with navigation, data passing, ListView, modularization, custom theme."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # google_fonts gives us a nicer typography stack without bundling .ttf files.
+  # Falls back gracefully to system fonts if offline.
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
